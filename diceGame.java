@@ -10,6 +10,7 @@ public class diceGame {
         System.out.println("What is your name?");
         Scanner scan = new Scanner(System.in);
         String name = scan.next();
+        scan.close();
         System.out.println("Hello," + name + "!");
 
         System.out.println("");
